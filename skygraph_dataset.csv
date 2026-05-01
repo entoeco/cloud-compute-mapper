@@ -1,0 +1,11 @@
+target_domain,ip_address,provider,organization,data_center_location
+netflix.com,18.200.8.190,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland"
+bbc.co.uk,151.101.64.81,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada"
+gov.uk,151.101.64.144,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada"
+harvard.edu,192.0.66.20,"Automattic, Inc",,"San Francisco, United States"
+spotify.com,35.186.224.24,Google LLC,Google Cloud,"Kansas City, United States"
+stripe.com,52.30.58.64,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland"
+salesforce.com,23.1.106.133,Akamai International B.V.,"Akamai Technologies, Inc.","New York, United States"
+zoom.us,170.114.52.2,"Cloudflare London, LLC","Zoom Video Communications, Inc","San Jose, United States"
+airbnb.com,166.117.189.176,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States"
+tesla.com,2.18.55.207,Akamai Technologies,,"São Paulo, Brazil"
