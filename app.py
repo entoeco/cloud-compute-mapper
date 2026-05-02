@@ -31,7 +31,7 @@ try:
             data=map_data,
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
-            get_radius=2000,  # Base radius in meters
+            #get_radius=2000,  # Base radius in meters
             radius_scale=10,  # Scale radius with zoom level
             radius_min_pixels=2, # Minimum radius in pixels
             pickable=True, # THIS IS THE MAGIC WORD THAT ENABLES HOVERING!
