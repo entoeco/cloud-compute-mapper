@@ -40,7 +40,7 @@ try:
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
             radius_scale=10,
-            radius_min_pixels=2,
+            radius_min_pixels=4,
             pickable=True,
             tooltip={
                 "html": "<b>Domain:</b> {target_domain} <br/>"
@@ -61,7 +61,7 @@ try:
             get_position="[campus_lon, campus_lat]",
             get_color="[0, 150, 255, 200]", # Blue
             radius_scale=10,
-            radius_min_pixels=2,
+            radius_min_pixels=4,
             pickable=True,
             tooltip={
                 "html": "<b>University:</b> {university_name} <br/>"
@@ -81,7 +81,7 @@ try:
             get_source_position="[campus_lon, campus_lat]",
             get_target_position="[lon, lat]",
             get_color="[255, 0, 0, 160]", # Red lines
-            get_width=3,
+            get_width=2,
             pickable=True,
             tooltip={
                 "html": "<b>University:</b> {university_name} <br/>"
