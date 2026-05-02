@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pdk  # NEW: Streamlit's advanced 3D mapping library
+import pydeck as pdk  # Streamlit's advanced 3D mapping library
 
 st.set_page_config(page_title="Sky-Graph Dashboard", page_icon="☁️", layout="wide")
 st.title("☁️ Project Sky-Graph: Global Cloud Map")
@@ -18,37 +18,25 @@ try:
 
     st.divider()
 
-    st.write("### Data Center Locations")
-    st.markdown("Hover over a node to see cloud infrastructure details.")
+    st.write("### Data Center & University Campus Locations")
+    st.markdown("Hover over a point to see details. Green points are data centers, blue points are university campuses.")
 
-    if 'lat' in df.columns and 'lon' in df.columns:
-        map_data = df[(df['lat'] != 0.0) & (df['lon'] != 0.0)]
+    # Filter out rows with missing lat/lon for both data centers and campuses
+    map_data_dc = df[(df['lat'].notna()) & (df['lon'].notna()) & (df['lat'] != 0.0) & (df['lon'] != 0.0)]
+    map_data_campus = df[(df['campus_lat'].notna()) & (df['campus_lon'].notna())]
 
-        # --- THE PYDECK UPGRADE ---
-        # 1. Define how the data looks (The Layer)
-        layer = pdk.Layer(
+    if not map_data_dc.empty or not map_data_campus.empty:
+
+        # Data Center Layer (Green)
+        data_center_layer = pdk.Layer(
             "ScatterplotLayer",
-            data=map_data,
+            data=map_data_dc,
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
-            #get_radius=2000,  # Base radius in meters
+            get_radius=2000,  # Base radius in meters
             radius_scale=10,  # Scale radius with zoom level
             radius_min_pixels=2, # Minimum radius in pixels
-            pickable=True, # THIS IS THE MAGIC WORD THAT ENABLES HOVERING!
-        )
-
-        # 2. Define where the camera starts (The View)
-        view_state = pdk.ViewState(
-            latitude=map_data['lat'].mean(), # Center camera on the data
-            longitude=map_data['lon'].mean(),
-            zoom=3,
-            pitch=45, # Try changing this to 45 later for a cool 3D angled view!
-        )
-
-        # 3. Render the map with a custom HTML tooltip
-        st.pydeck_chart(pdk.Deck(
-            layers=[layer],
-            initial_view_state=view_state,
+            pickable=True,
             tooltip={
                 "html": "<b>Domain:</b> {target_domain} <br/>"
                         "<b>Provider:</b> {provider} <br/>"
@@ -59,9 +47,55 @@ try:
                     "font-family": "sans-serif"
                 }
             }
-        ))
+        )
+
+        # University Campus Layer (Blue)
+        campus_layer = pdk.Layer(
+            "ScatterplotLayer",
+            data=map_data_campus,
+            get_position="[campus_lon, campus_lat]",
+            get_color="[0, 150, 255, 200]", # Blue
+            get_radius=2500, # Slightly larger radius for campuses to distinguish
+            radius_scale=10,
+            radius_min_pixels=2,
+            pickable=True,
+            tooltip={
+                "html": "<b>University:</b> {university_name} <br/>"
+                        "<b>Campus Location (Approx):</b> {campus_lat}, {campus_lon}",
+                "style": {
+                    "backgroundColor": "#222222",
+                    "color": "white",
+                    "font-family": "sans-serif"
+                }
+            }
+        )
+
+        # Combine layers
+        layers = [data_center_layer, campus_layer]
+
+        # Define where the camera starts (The View)
+        # Use mean of all relevant coordinates for initial view
+        all_latitudes = pd.concat([map_data_dc['lat'], map_data_campus['campus_lat']]).dropna()
+        all_longitudes = pd.concat([map_data_dc['lon'], map_data_campus['campus_lon']]).dropna()
+
+        if not all_latitudes.empty and not all_longitudes.empty:
+            view_state = pdk.ViewState(
+                latitude=all_latitudes.mean(),
+                longitude=all_longitudes.mean(),
+                zoom=3,
+                pitch=45, # Angled view
+            )
+
+            # Render the map
+            st.pydeck_chart(pdk.Deck(
+                layers=layers,
+                initial_view_state=view_state,
+                tooltip=True # Enable default tooltip behavior for both layers
+            ))
+        else:
+            st.warning("⚠️ No valid coordinates found to display map.")
     else:
-        st.warning("⚠️ Waiting for coordinate data.")
+        st.warning("⚠️ Waiting for coordinate data or no valid data to display.")
 
     st.divider()
 

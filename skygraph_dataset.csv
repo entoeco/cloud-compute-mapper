@@ -1,158 +1,160 @@
-target_domain,ip_address,provider,organization,data_center_location,lat,lon
-kcl.ac.uk,137.73.130.135,Jisc Services Limited,King's College London,"London, United Kingdom",51.5115,-0.115997
-ram.ac.uk,94.247.142.1,"Cloudflare London, LLC",Bit Breakfast Ltd,"Houston, United States",29.7604,-95.3698
-dur.ac.uk,99.83.253.255,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-swansea.ac.uk,137.44.60.150,Swansea University,,"Swansea, United Kingdom",51.6131,-4.0441
-glos.ac.uk,150.171.109.200,Microsoft Corporation,Microsoft Corporation,"Nairobi, Kenya",-1.29207,36.8219
-dmu.ac.uk,185.18.139.191,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-sothebysinstitutelondon.com,205.178.189.129,"Network Solutions, LLC","Network Solutions, LLC","Jacksonville, United States",30.2493,-81.5268
-wales.ac.uk,52.211.85.12,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-northampton.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462
-bangor.ac.uk,52.17.79.56,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-anglia.ac.uk,20.90.134.21,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-brunel.ac.uk,134.83.115.113,Brunel University,Brunel University London,"Uxbridge, United Kingdom",51.5513,-0.4845
-trinitycollegebristol.ac.uk,35.214.77.148,Google LLC,Google Cloud (europe-west2),"London, United Kingdom",51.5123,-0.0909
-wlv.ac.uk,3.33.145.238,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-bham.ac.uk,147.188.128.127,University of Birmingham,The University of Birmingham,"Birmingham, United Kingdom",52.4425,-1.9442
-northumbria.ac.uk,13.74.188.238,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597
-port.ac.uk,3.248.71.106,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-leedstrinity.ac.uk,166.117.213.241,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-derby.ac.uk,34.253.4.136,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-swan.ac.uk,137.44.60.170,Swansea University,,"Swansea, United Kingdom",51.6131,-4.0441
-herts.ac.uk,43.245.41.78,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205
-bcu.ac.uk,51.140.245.89,Microsoft Corporation,Microsoft Azure App Service (ukwest),"Cardiff, United Kingdom",51.481785,-3.178065
-city.ac.uk,43.245.41.211,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205
-yorksj.ac.uk,193.61.228.134,Jisc Services Limited,University College of Ripon and York St John,"York, United Kingdom",53.9649,-1.0801
-citystgeorges.ac.uk,43.245.41.211,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205
-chester.ac.uk,3.33.153.195,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-bathspa.ac.uk,75.2.69.182,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-aul.edu,64.41.87.214,"Ntirety, Inc.","Ntirety, Inc.","Shirley, United States",40.8015,-72.8676
-aston.ac.uk,3.8.109.248,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758
-liv.ac.uk,138.253.13.50,Jisc Services Limited,University of Liverpool,"Liverpool, United Kingdom",53.4096,-2.9792
-sruc.ac.uk,162.159.140.127,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832
-london.ac.uk,128.86.132.14,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931
-edgehill.ac.uk,104.18.20.53,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832
-tees.ac.uk,152.105.184.103,University of Teesside,,"Middlesbrough, United Kingdom",54.5744,-1.2317
-solent.ac.uk,194.66.93.210,Jisc Services Limited,Solent University,"Southampton, United Kingdom",50.9142,-1.388
-gre.ac.uk,193.37.244.176,Jisc Services Limited,University of Greenwich,"City of London, United Kingdom",51.4843,-0.0043171
-uplearnbusinessschool.com,185.53.179.128,Team Internet AG,TEAM-INTERNET,"Munich, Germany",48.1446,11.5895
-sghms.ac.uk,194.82.51.35,Jisc Services Limited,St George's,"Tooting, United Kingdom",51.432,-0.1699
-cardiff.ac.uk,43.245.41.93,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205
-sgul.ac.uk,185.18.139.168,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-wakefield.ac.uk,103.77.224.73,Mathew Heard/Trading as X4B,X4B,"Los Angeles, United States",34.0549,-118.243
-roehampton.ac.uk,217.114.94.2,EPiServer AB,Episerver AB,"Stockholm, Sweden",59.3354,18.0672
-limt.co.uk,149.255.58.123,Unlimited Web Hosting UK LTD,Unlimited Web Hosting UK LTD,"London, United Kingdom",51.5072,-0.127586
-runshaw.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462
-eastcoast.ac.uk,151.101.2.159,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada",45.5019,-73.5674
-bucks.ac.uk,44.199.160.6,Amazon.com,AWS EC2 (us-east-1),"Ashburn, United States",39.0438,-77.4874
-shef.ac.uk,143.167.2.102,Jisc Services Limited,University of Sheffield,"Sheffield, United Kingdom",53.35,-1.55
-ljmu.ac.uk,51.142.65.85,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-qub.ac.uk,75.2.31.176,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-gsa.ac.uk,198.202.211.1,"Cloudflare London, LLC","Webflow, Inc","San Francisco, United States",37.7708,-122.413
-nottingham.ac.uk,185.18.139.133,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-rcm.ac.uk,99.83.248.220,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-hope.ac.uk,194.81.34.162,Jisc Services Limited,Liverpool Hope University,"Liverpool, United Kingdom",53.3972,-2.897
-leeds.ac.uk,15.197.155.249,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-rdg.ac.uk,134.225.0.151,Reading University,University of Reading,"Reading, United Kingdom",51.4425,-0.9267
-ncl.ac.uk,128.240.216.85,Jisc Services Limited,University of Newcastle upon Tyne,"Newcastle upon Tyne, United Kingdom",54.9742,-1.615
-tvu.ac.uk,193.63.23.29,Jisc Services Limited,The University of West London,"Ealing, United Kingdom",51.5096,-0.2942
-cavc.ac.uk,52.142.190.205,Microsoft Corporation,Microsoft Azure Cloud (ukwest),"Cardiff, United Kingdom",51.481785,-3.178065
-arts.ac.uk,195.194.146.196,Jisc Services Limited,University of the Arts London,"Stockton-on-Tees, United Kingdom",54.571,-1.316
-gla.ac.uk,130.209.34.136,Glasgow University,,"Glasgow, United Kingdom",55.8306,-4.2593
-oxford.ac.uk,163.1.221.216,Oxford University Computing Service,Oxford University,"Oxford, United Kingdom",51.7283,-1.2406
-royalholloway.ac.uk,20.90.134.23,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-ed.ac.uk,129.215.97.33,University of Edinburgh,The University of Edinburgh,"Edinburgh, United Kingdom",55.9495,-3.1983
-kolieh.com,217.160.0.99,IONOS SE,Ionos Inf,"Essen, Germany",51.4576,7.02246
-rca.ac.uk,89.106.200.1,Enflow B.V.,Enflow B.V,"Alphen aan den Rijn, The Netherlands",52.1306,4.66227
-lancs.ac.uk,148.88.65.80,Lancaster University,,"Lancaster, United Kingdom",54.0479,-2.7977
-lboro.ac.uk,76.223.116.192,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-st-andrews.ac.uk,138.251.7.84,Jisc Services Limited,The University of St. Andrews,"St Andrews, United Kingdom",56.3387,-2.799
-hult.edu,35.168.101.81,"Amazon.com, Inc.",AWS EC2 (us-east-1),"Ashburn, United States",39.0438,-77.4874
-college.harlaxton.co.uk,76.76.21.21,"Amazon.com, Inc.","Vercel, Inc","Walnut, United States",34.0233,-117.8512
-westminster.ac.uk,54.217.246.39,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-beds.ac.uk,35.71.135.125,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-brijnet.org,185.151.30.155,20i Limited,CDN,"London, United Kingdom",51.5072,-0.127586
-bournemouth.ac.uk,54.247.79.157,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-bton.ac.uk,185.18.139.126,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-bath.edu,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594
-sussex.ac.uk,139.184.14.208,Computing Service,,"Brighton, United Kingdom",50.8545,-0.1502
-lamp.ac.uk,193.62.88.10,Jisc Services Limited,University of Wales Trinity Saint David,"Norwich, United Kingdom",52.6259,1.3032
-wsc.ac.uk,103.77.224.16,Mathew Heard/Trading as X4B,X4B,"Los Angeles, United States",34.0549,-118.243
-richmond.ac.uk,141.193.213.20,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462
-umds.ac.uk,137.73.130.135,Jisc Services Limited,King's College London,"London, United Kingdom",51.5115,-0.115997
-bolton.ac.uk,193.63.49.33,Jisc Services Limited,The University of Bolton,"Birmingham, United Kingdom",52.4356,-1.8733
-lse.ac.uk,185.18.139.132,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-salford.ac.uk,150.171.109.198,Microsoft Corporation,Microsoft Corporation,"Nairobi, Kenya",-1.29207,36.8219
-stir.ac.uk,172.166.94.221,Microsoft,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-worc.ac.uk,185.18.139.18,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-essex.ac.uk,20.90.134.18,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-york.ac.uk,144.32.128.115,University of York,"IT Services, University of York","York, United Kingdom",53.9573,-1.0837
-bath.ac.uk,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594
-btc.ac.uk,34.240.187.24,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-ntu.ac.uk,2.58.104.10,Squiz Pty Ltd,Squiz Cdn1,"Sydney, Australia",-33.8688,151.209
-mdx.ac.uk,35.71.145.196,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-uel.ac.uk,34.246.3.103,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-stmarys.ac.uk,185.18.139.29,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-manchester.ac.uk,18.133.51.167,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758
-hud.ac.uk,3.33.214.240,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-kingston.ac.uk,172.67.20.82,Cloudflare,"Cloudflare, Inc.","Montreal, Canada",45.5019,-73.5674
-abdn.ac.uk,139.133.1.4,Jisc Services Limited,University of Aberdeen,"Aberdeen, United Kingdom",57.1453,-2.0945
-sclondon.ac,67.223.118.67,"Namecheap, Inc.","Namecheap, Inc","Chicago, United States",41.8781,-87.6298
-ex.ac.uk,144.173.112.69,Exeter University,University of Exeter Academic Services,"Teignmouth, United Kingdom",50.5455,-3.4911
-uea.ac.uk,13.248.176.6,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-newcollege.ac.uk,212.219.8.122,Jisc Services Limited,New College Swindon,"Southampton, United Kingdom",50.9005,-1.3854
-hw.ac.uk,75.2.42.62,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-mmu.ac.uk,52.211.85.12,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-ucs.ac.uk,195.195.221.31,Jisc Services Limited,University Campus Suffolk Ltd,"Haverfordwest, United Kingdom",51.7994,-4.9658
-abertay.ac.uk,20.108.144.58,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-uclan.ac.uk,64.239.109.1,"Amazon.com, Inc.","Vercel, Inc","Walnut, United States",34.0119,-117.86
-warwick.ac.uk,137.205.28.41,Warwick University,"Information Technology Services, University of Warwick","Coventry, United Kingdom",52.382,-1.5874
-staffs.ac.uk,185.18.139.26,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996
-bbk.ac.uk,13.134.52.53,Amazon.com,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758
-ulster.ac.uk,2.58.104.10,Squiz Pty Ltd,Squiz Cdn1,"Sydney, Australia",-33.8688,151.209
-uwe.ac.uk,164.11.4.40,University of the West of England,"SWERN Network Manager, University of the West of England","Bristol, United Kingdom",51.4534,-2.5077
-dundee.ac.uk,134.36.2.74,Dundee University,,"Letham, United Kingdom",56.6179,-2.7722
-falmouth.ac.uk,104.25.193.22,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832
-courtauld.ac.uk,23.185.0.4,"Fastly, Inc.",Pantheon,"San Francisco, United States",37.7922,-122.406
-le.ac.uk,143.210.133.109,University of Leicester,"IT Services, University of Leicester","Leicester, United Kingdom",52.6049,-1.1488
-lis.ac.uk,198.202.211.1,"Cloudflare London, LLC","Webflow, Inc","San Francisco, United States",37.7708,-122.413
-gold.ac.uk,45.158.164.160,Compuweb Communications Services Limited,Cwcs Managed Hosting,"London, United Kingdom",51.5072,-0.127586
-lincoln.ac.uk,15.197.195.183,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-niu.org.uk,13.248.213.45,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-brookes.ac.uk,52.137.17.126,Microsoft Corporation,Microsoft Azure Cloud (westeurope),"Amsterdam, Netherlands",52.3667,4.9
-lsbf.org.uk,51.104.28.81,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-lshtm.ac.uk,52.31.60.123,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031
-londonmet.ac.uk,163.167.82.93,University of North London,London Metropolitan University,"City of London, United Kingdom",51.5516,-0.110543
-cumbria.ac.uk,52.223.55.188,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-bristol.ac.uk,137.222.125.160,The University of Bristol,University of Bristol,"Bristol, United Kingdom",51.5123,-2.6991
-brad.ac.uk,15.197.133.134,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674
-canterbury.ac.uk,194.66.209.101,Jisc Services Limited,Canterbury Christ Church University,"Bognor Regis, United Kingdom",50.8315,-0.6509
-heythrop.ac.uk,128.86.237.41,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931
-futureworks.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462
-rhul.ac.uk,20.90.134.23,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-plymouth.ac.uk,20.67.173.146,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597
-imperial.ac.uk,146.179.42.148,Imperial College London,"Imperial College of Science, Technology and Medicine","Kensington, United Kingdom",51.5005,-0.1905
-aiuniv.edu,45.60.201.133,Incapsula Inc,Incapsula Inc,"Chicago, United States",41.8781,-87.6298
-eselondon.ac.uk,62.182.18.75,Sub 6 Limited,JH Managed Server Infrastructure2,"London, United Kingdom",51.5072,-0.127586
-bcom.ac.uk,85.92.70.189,UKNOC-RT,UKDedicated Ltd,"Worcester, United Kingdom",52.2151,-2.21902
-ukc.ac.uk,129.12.10.250,University of Kent at Canterbury,University of Kent,"Canterbury, United Kingdom",51.279,1.0763
-shu.ac.uk,52.155.219.201,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597
-ioe.ac.uk,193.60.253.25,Jisc Services Limited,University College London,"Northwood, United Kingdom",51.6143,-0.4188
-leedsbeckett.ac.uk,18.134.81.66,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758
-warnborough.edu,188.114.96.1,"Cloudflare, Inc.","CloudFlare, Inc.","Toronto, Canada",43.6532,-79.3832
-sas.ac.uk,128.86.132.14,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931
-sunderland.ac.uk,75.2.73.151,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-uwic.ac.uk,193.62.97.167,Jisc Services Limited,Cardiff Metropolitan University,"Norwich, United Kingdom",52.6259,1.3032
-aber.ac.uk,104.18.22.171,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832
-cam.ac.uk,23.185.0.3,"Fastly, Inc.",Pantheon,"San Francisco, United States",37.7922,-122.406
-keele.ac.uk,76.223.88.173,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246
-surrey.ac.uk,131.227.132.127,University of Surrey,"IT Services, University of Surrey","Guildford, United Kingdom",51.2519,-0.5933
-rgu.ac.uk,194.66.86.142,Jisc Services Limited,The Robert Gordon University,"Southampton, United Kingdom",50.9142,-1.388
-ucl.ac.uk,144.82.250.24,The Bloomsbury Computing Consortium,"Information Systems, University","Camden, United Kingdom",51.5415,-0.1445
-soas.ac.uk,151.101.194.216,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada",45.5019,-73.5674
-ncl-coll.ac.uk,20.49.208.219,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212
-napier.ac.uk,146.176.202.99,Napier University,Edinburgh Napier University,"Edinburgh, United Kingdom",55.9153,-3.1977
-st-patricks.ac.uk,65.9.46.49,"Amazon.com, Inc.",AWS CloudFront (GLOBAL),"Stockholm, Sweden",59.3293,18.0686
-hull.ac.uk,150.237.12.80,University of Hull,University of Hull,"Hull, United Kingdom",53.8006,-0.3696
-open.ac.uk,137.108.200.89,Open University,Open University,"Dalkeith, United Kingdom",55.8914,-3.0782
-gcal.ac.uk,193.62.226.15,Jisc Services Limited,Glasgow Caledonian University,"Glasgow, United Kingdom",55.867,-4.2621
+target_domain,ip_address,provider,organization,data_center_location,lat,lon,university_name,campus_lat,campus_lon
+rhul.ac.uk,20.90.134.23,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212,Royal Holloway University of London,51.4244496,-0.5642554
+port.ac.uk,3.248.71.106,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,University of Portsmouth,50.795245,-1.0935529
+futureworks.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462,Futureworks,53.4822728,-2.2533851
+arts.ac.uk,195.194.146.196,Jisc Services Limited,University of the Arts London,"Stockton-on-Tees, United Kingdom",54.571,-1.316,University of the Arts London,51.5176865,-0.1163373
+abdn.ac.uk,139.133.1.4,Jisc Services Limited,University of Aberdeen,"Aberdeen, United Kingdom",57.1453,-2.0945,University of Aberdeen,57.1645248,-2.1018364
+aber.ac.uk,104.18.22.171,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832,Aberystwyth University,52.4337863,-4.0194512
+abertay.ac.uk,20.108.144.58,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212,University of Abertay Dundee,56.4632546,-2.9744981
+aiuniv.edu,45.60.201.133,Incapsula Inc,Incapsula Inc,"Chicago, United States",41.8781,-87.6298,American InterContinental University - London,,
+anglia.ac.uk,20.90.134.21,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212,Anglia Ruskin University,52.2033882,0.1350226
+aston.ac.uk,3.8.109.248,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758,Aston University,52.4861905,-1.8884689
+aul.edu,64.41.87.214,"Ntirety, Inc.","Ntirety, Inc.","Shirley, United States",40.8015,-72.8676,The American University in London,,
+bangor.ac.uk,52.17.79.56,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,"University of Wales, Bangor",53.2310651,-4.1271415
+bath.ac.uk,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594,University of Bath,51.3766938,-2.3234206
+bath.ac.uk,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594,University of Bath,51.3766938,-2.3234206
+bathspa.ac.uk,75.2.69.182,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,Bath Spa University,51.374858,-2.4387146
+bbk.ac.uk,13.41.116.211,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758,"Birkbeck College, University of London",51.5218449,-0.1302155
+bcom.ac.uk,85.92.70.189,UKNOC-RT,UKDedicated Ltd,"Worcester, United Kingdom",52.2151,-2.21902,British College of Osteopathic Medicine,,
+bcu.ac.uk,51.140.245.89,Microsoft Corporation,Microsoft Azure App Service (ukwest),"Cardiff, United Kingdom",51.481785,-3.178065,Birmingham City University,52.4822706,-1.8888148
+beds.ac.uk,35.71.135.125,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Bedfordshire,51.8777325,-0.4100517
+bham.ac.uk,147.188.128.127,University of Birmingham,The University of Birmingham,"Birmingham, United Kingdom",52.4425,-1.9442,University of Birmingham,52.4522956,-1.9312857
+bolton.ac.uk,193.63.49.33,Jisc Services Limited,The University of Bolton,"Birmingham, United Kingdom",52.4356,-1.8733,University of Bolton,53.5714258,-2.4264783
+bournemouth.ac.uk,54.247.79.157,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,Bournemouth University,50.7420913,-1.894164
+brad.ac.uk,15.197.133.134,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Bradford,53.7916522,-1.7661184
+brijnet.org,185.151.30.155,20i Limited,CDN,"London, United Kingdom",51.5072,-0.127586,London School of Jewish Studies,51.5882091,-0.2137603
+bristol.ac.uk,137.222.180.160,The University of Bristol,University of Bristol,"Bristol, United Kingdom",51.4609,-2.6238,University of Bristol,51.4905582,-2.6304825
+brookes.ac.uk,52.137.17.126,Microsoft Corporation,Microsoft Azure Cloud (westeurope),"Amsterdam, Netherlands",52.3667,4.9,Oxford Brookes University,51.755223,-1.230104
+brunel.ac.uk,134.83.115.113,Brunel University,Brunel University London,"Uxbridge, United Kingdom",51.5513,-0.4845,Brunel University Uxbridge,51.5326092,-0.4740499
+bton.ac.uk,185.18.139.126,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,University of Brighton,50.8278078,-0.1341983
+bucks.ac.uk,44.199.160.6,Amazon.com,AWS EC2 (us-east-1),"Ashburn, United States",39.0438,-77.4874,Buckinghamshire New University,51.6278221,-0.753436
+cam.ac.uk,23.185.0.3,"Fastly, Inc.",Pantheon,"San Francisco, United States",37.7922,-122.406,University of Cambridge,52.1890916,0.1212977
+canterbury.ac.uk,194.66.209.101,Jisc Services Limited,Canterbury Christ Church University,"Bognor Regis, United Kingdom",50.8315,-0.6509,Canterbury Christ Church University,51.2791824,1.0903628
+cardiff.ac.uk,43.245.41.93,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205,Cardiff University,51.4887426,-3.1795999
+chester.ac.uk,15.197.140.154,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Chester,53.2002643,-2.8993189
+city.ac.uk,43.245.41.211,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205,City University,51.5276574,-0.103605
+courtauld.ac.uk,23.185.0.4,"Fastly, Inc.",Pantheon,"San Francisco, United States",37.7922,-122.406,"Courtauld Institute of Art, University of London",,
+derby.ac.uk,34.253.4.136,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,University of Derby,52.9379547,-1.4979991
+dmu.ac.uk,185.18.139.191,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,De Montfort University Leicester,52.6297131,-1.139284
+dundee.ac.uk,134.36.2.74,Dundee University,,"Letham, United Kingdom",56.6179,-2.7722,University of Dundee,56.4579676,-2.9821483
+dur.ac.uk,75.2.69.134,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,University of Durham,54.7887211,-1.5931807
+edgehill.ac.uk,104.18.21.53,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832,Edge Hill University,53.5581225,-2.8687914
+ed.ac.uk,129.215.97.20,University of Edinburgh,The University of Edinburgh,"Edinburgh, United Kingdom",55.9495,-3.1983,University of Edinburgh,55.9440765,-3.1883736
+eselondon.ac.uk,62.182.18.75,Sub 6 Limited,JH Managed Server Infrastructure2,"London, United Kingdom",51.5072,-0.127586,European School of Economics,,
+essex.ac.uk,20.90.134.18,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212,University of Essex,51.8773639,0.9498751
+ex.ac.uk,144.173.112.69,Exeter University,University of Exeter Academic Services,"Teignmouth, United Kingdom",50.5455,-3.4911,University of Exeter,50.1701604,-5.1241802
+falmouth.ac.uk,104.25.193.22,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832,Falmouth University,50.1489643,-5.0704472
+gcal.ac.uk,193.62.226.15,Jisc Services Limited,Glasgow Caledonian University,"Glasgow, United Kingdom",55.867,-4.2621,Glasgow Caledonian University,55.8674664,-4.2502454
+gla.ac.uk,130.209.34.134,Glasgow University,,"Glasgow, United Kingdom",55.8306,-4.2593,University of Glasgow,55.8716587,-4.2883961
+glos.ac.uk,150.171.109.200,Microsoft Corporation,Microsoft Corporation,"Nairobi, Kenya",-1.29207,36.8219,University of Gloucestershire,51.8731804,-2.2239706
+gold.ac.uk,45.158.164.160,Compuweb Communications Services Limited,Cwcs Managed Hosting,"London, United Kingdom",51.5072,-0.127586,"Goldsmiths College, University of London",,
+gre.ac.uk,193.37.244.176,Jisc Services Limited,University of Greenwich,"City of London, United Kingdom",51.4843,-0.0043171,University of Greenwich,51.4825423,-0.0066531
+gsa.ac.uk,198.202.211.1,"Cloudflare London, LLC","Webflow, Inc","San Francisco, United States",37.7708,-122.413,Glasgow School of Art,55.8663077,-4.2639001
+herts.ac.uk,43.245.41.78,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205,University of Hertfordshire,51.7517443,-0.2390498
+heythrop.ac.uk,128.86.237.41,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931,"Heythrop College, University of London",,
+hope.ac.uk,194.81.34.162,Jisc Services Limited,Liverpool Hope University,"Liverpool, United Kingdom",53.3972,-2.897,Liverpool Hope University College,,
+hud.ac.uk,15.197.200.147,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Huddersfield,53.6429919,-1.7780783
+hull.ac.uk,150.237.12.80,University of Hull,University of Hull,"Hull, United Kingdom",53.8006,-0.3696,University of Hull,53.7732507,-0.3670415
+hw.ac.uk,75.2.42.62,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,Heriot-Watt University,55.9102959,-3.3234475
+imperial.ac.uk,146.179.12.148,Imperial College London,"Imperial College of Science, Technology and Medicine","Kensington, United Kingdom",51.5005,-0.1905,Imperial College London,51.4989595,-0.1756407
+ioe.ac.uk,193.60.253.25,Jisc Services Limited,University College London,"Northwood, United Kingdom",51.6143,-0.4188,"Institute of Education, University of London",51.5230684,-0.1280751
+kcl.ac.uk,137.73.130.135,Jisc Services Limited,King's College London,"London, United Kingdom",51.5115,-0.115997,"King's College London, University of London",51.5052366,-0.1115945
+keele.ac.uk,13.248.206.140,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,Keele University,53.0016756,-2.2706942
+kingston.ac.uk,104.22.35.238,Cloudflare,"Cloudflare, Inc.","Montreal, Canada",45.5019,-73.5674,Kingston University,51.4030739,-0.3032181
+kolieh.com,217.160.0.99,IONOS SE,Ionos Inf,"Essen, Germany",51.4576,7.02246,International Centre for Isclamic Science,,
+lamp.ac.uk,193.62.88.10,Jisc Services Limited,University of Wales Trinity Saint David,"Norwich, United Kingdom",52.6259,1.3032,"University of Wales, Lampeter",52.1131223,-4.0751593
+lancs.ac.uk,148.88.65.80,Lancaster University,,"Lancaster, United Kingdom",54.0479,-2.7977,University of Lancaster,54.0098429,-2.7875768
+lboro.ac.uk,76.223.116.192,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,Loughborough University,52.763845,-1.2372582
+le.ac.uk,143.210.133.109,University of Leicester,"IT Services, University of Leicester","Leicester, United Kingdom",52.6049,-1.1488,University of Leicester,52.6175241,-1.1377672
+leeds.ac.uk,3.33.141.243,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Leeds,53.8057925,-1.555111
+limt.co.uk,149.255.58.123,Unlimited Web Hosting UK LTD,Unlimited Web Hosting UK LTD,"London, United Kingdom",51.5072,-0.127586,London Institute of Management and Technology,,
+lincoln.ac.uk,15.197.195.183,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Lincoln,53.2263804,-0.5461286
+liv.ac.uk,138.253.13.50,Jisc Services Limited,University of Liverpool,"Liverpool, United Kingdom",53.4096,-2.9792,University of Liverpool,53.4072429,-2.9658337
+ljmu.ac.uk,51.142.65.85,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212,Liverpool John Moores University,53.4037508,-2.9726752
+leedsbeckett.ac.uk,18.171.30.181,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758,Leeds Beckett University,53.8261442,-1.5933537
+london.ac.uk,128.86.132.14,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931,University of London,51.5218979,-0.1288676
+londonmet.ac.uk,163.167.82.93,University of North London,London Metropolitan University,"City of London, United Kingdom",51.5516,-0.110543,London Metropolitan University,51.5173823,-0.0883496
+lsbf.org.uk,51.104.28.81,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212,London School of Business & Finance,51.5182509,-0.1168755
+lse.ac.uk,185.18.139.132,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,"London School of Economics and Political Science, University of London",51.5146063,-0.1164509
+lshtm.ac.uk,52.31.60.123,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,"London School of Hygiene & Tropical Medicine, University of London",,
+manchester.ac.uk,18.133.51.167,Amazon Technologies Inc.,AWS EC2 (eu-west-2),"London, United Kingdom",51.5074,-0.127758,University of Manchester,53.4660226,-2.2330858
+mdx.ac.uk,35.71.145.196,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,Middlesex University - London,51.6591227,-0.1333415
+mmu.ac.uk,52.211.85.12,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,The Manchester Metropolitan University,,
+napier.ac.uk,146.176.202.99,Napier University,Edinburgh Napier University,"Edinburgh, United Kingdom",55.9153,-3.1977,Edinburgh Napier University,55.9311064,-3.2093902
+ncl.ac.uk,128.240.216.85,Jisc Services Limited,University of Newcastle upon Tyne,"Newcastle upon Tyne, United Kingdom",54.9742,-1.615,Newcastle University,54.9801751,-1.6146802
+niu.org.uk,76.223.67.189,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,Newport International University,,
+northampton.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462,University of Northampton,52.2312458,-0.8898806
+nottingham.ac.uk,185.18.139.133,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,University of Nottingham,52.9387428,-1.2002957
+ntu.ac.uk,2.58.104.10,Squiz Pty Ltd,Squiz Cdn1,"Sydney, Australia",-33.8688,151.209,Nottingham Trent University,52.91164,-1.1866048
+open.ac.uk,137.108.200.89,Open University,Open University,"Dalkeith, United Kingdom",55.8914,-3.0782,Open University,52.0245378,-0.7092748
+oxford.ac.uk,163.1.221.216,Oxford University Computing Service,Oxford University,"Oxford, United Kingdom",51.7283,-1.2406,University of Oxford,51.7525461,-1.21433
+plymouth.ac.uk,20.67.173.146,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597,University of Plymouth,50.3757001,-4.1393786
+qub.ac.uk,3.33.160.244,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,The Queen's University Belfast,54.5862776,-5.935624
+ram.ac.uk,94.247.142.1,"Cloudflare London, LLC",Bit Breakfast Ltd,"Houston, United States",29.7604,-95.3698,"Royal Academy of Music, University of London",51.5234636,-0.1518619
+rca.ac.uk,89.106.200.1,Enflow B.V.,Enflow B.V,"Alphen aan den Rijn, The Netherlands",52.1306,4.66227,Royal College of Art,51.4792809,-0.1704551
+rcm.ac.uk,99.83.248.220,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,"Royal College of Music, University of London",51.4994776,-0.1771007
+rdg.ac.uk,134.225.0.151,Reading University,University of Reading,"Reading, United Kingdom",51.4425,-0.9267,University of Reading,51.4404358,-0.9417618
+rgu.ac.uk,194.66.86.142,Jisc Services Limited,The Robert Gordon University,"Southampton, United Kingdom",50.9142,-1.388,The Robert Gordon University,,
+royalholloway.ac.uk,20.90.134.23,Microsoft Corporation,Microsoft Azure App Service (uksouth),"City of London, United Kingdom",51.5113,-0.079212,Royal Holloway and Bedford New College,51.4244496,-0.5642554
+richmond.ac.uk,141.193.213.21,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462,Richmond University - The American International University in London,,
+roehampton.ac.uk,217.114.94.2,EPiServer AB,Episerver AB,"Stockholm, Sweden",59.3354,18.0672,Roehampton University of Surrey,,
+salford.ac.uk,150.171.109.198,Microsoft Corporation,Microsoft Corporation,"Nairobi, Kenya",-1.29207,36.8219,University of Salford,53.4732204,-2.2970993
+sas.ac.uk,128.86.132.14,Jisc Services Limited,Jisc Services Limited,"City of London, United Kingdom",51.5153,-0.10931,"School of Advanced Study, University of London",,
+sclondon.ac,67.223.118.67,"Namecheap, Inc.","Namecheap, Inc","Chicago, United States",41.8781,-87.6298,Stratford College London,51.5398046,0.0044679
+sghms.ac.uk,194.82.51.35,Jisc Services Limited,St George's,"Tooting, United Kingdom",51.432,-0.1699,"Saint George's Hospital Medical School, University of London",,
+shef.ac.uk,143.167.2.102,Jisc Services Limited,University of Sheffield,"Sheffield, United Kingdom",53.35,-1.55,The University of Sheffield,,
+shu.ac.uk,52.155.219.201,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597,Sheffield Hallam University,53.3817264,-1.4627951
+soas.ac.uk,151.101.130.216,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada",45.5019,-73.5674,"School of Oriental and African Studies, University of London",51.5218979,-0.1288676
+solent.ac.uk,194.66.93.210,Jisc Services Limited,Solent University,"Southampton, United Kingdom",50.9142,-1.388,Southampton Solent University,50.9085254,-1.3996257
+sothebysinstitutelondon.com,205.178.189.129,"Network Solutions, LLC","Network Solutions, LLC","Jacksonville, United States",30.2493,-81.5268,Sotheby´s Institute of Art - London,51.5186539,-0.1312019
+staffs.ac.uk,185.18.139.26,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,Staffordshire University,53.0094747,-2.1742692
+st-andrews.ac.uk,138.251.7.84,Jisc Services Limited,The University of St. Andrews,"St Andrews, United Kingdom",56.3387,-2.799,University of St. Andrews,56.3398554,-2.8117775
+stir.ac.uk,172.166.94.221,Microsoft,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212,University of Stirling,56.1451154,-3.9173938
+st-patricks.ac.uk,65.9.46.53,"Amazon.com, Inc.",AWS CloudFront (GLOBAL),"Stockholm, Sweden",59.3293,18.0686,"St.Patrick's International College, London",,
+sunderland.ac.uk,75.2.73.151,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,University of Sunderland,54.9043869,-1.3917923
+surrey.ac.uk,131.227.132.127,University of Surrey,"IT Services, University of Surrey","Guildford, United Kingdom",51.2519,-0.5933,University of Surrey,51.2430782,-0.5900545
+sussex.ac.uk,139.184.14.208,Computing Service,,"Brighton, United Kingdom",50.8545,-0.1502,University of Sussex,50.8674377,-0.0877259
+swan.ac.uk,137.44.60.147,Swansea University,,"Swansea, United Kingdom",51.6131,-4.0441,"University of Wales, Swansea",51.6091649,-3.9793675
+tees.ac.uk,152.105.184.103,University of Teesside,,"Middlesbrough, United Kingdom",54.5744,-1.2317,University of Teesside,,
+tvu.ac.uk,193.63.23.29,Jisc Services Limited,The University of West London,"Ealing, United Kingdom",51.5096,-0.2942,Thames Valley University,,
+ucl.ac.uk,144.82.250.24,The Bloomsbury Computing Consortium,"Information Systems, University","Camden, United Kingdom",51.5415,-0.1445,"University College London, University of London",51.5242031,-0.1330007
+uclan.ac.uk,64.239.109.1,"Amazon.com, Inc.","Vercel, Inc","Walnut, United States",34.0119,-117.86,University of Central Lancashire,53.7643905,-2.7086535
+ucs.ac.uk,195.195.221.31,Jisc Services Limited,University Campus Suffolk Ltd,"Haverfordwest, United Kingdom",51.7994,-4.9658,University Campus Suffolk,52.1394051,1.2159754
+uea.ac.uk,76.223.53.114,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,University of East Anglia,52.6210623,1.2356187
+uel.ac.uk,99.80.13.5,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,University of East London,51.5073682,0.0656624
+ukc.ac.uk,129.12.10.250,University of Kent at Canterbury,University of Kent,"Canterbury, United Kingdom",51.279,1.0763,University of Kent at Canterbury,,
+umds.ac.uk,137.73.130.135,Jisc Services Limited,King's College London,"London, United Kingdom",51.5115,-0.115997,"United Medical and Dental Schools, University of London",,
+northumbria.ac.uk,13.74.188.238,Microsoft Corporation,Microsoft Azure Cloud (northeurope),"Dublin, Ireland",53.3478,-6.2597,Northumbria University,54.9787691,-1.6096401
+uwe.ac.uk,164.11.4.40,University of the West of England,"SWERN Network Manager, University of the West of England","Bristol, United Kingdom",51.4534,-2.5077,"University of the West of England, Bristol",51.5007679,-2.5503106
+uwic.ac.uk,193.62.97.167,Jisc Services Limited,Cardiff Metropolitan University,"Norwich, United Kingdom",52.6259,1.3032,"University of Wales Institute, Cardiff",51.49609,-3.2128353
+wales.ac.uk,52.211.85.12,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,University of Wales,52.1131223,-4.0751593
+warnborough.edu,188.114.97.1,"Cloudflare, Inc.","CloudFlare, Inc.","Toronto, Canada",43.6532,-79.3832,Warnborough University,,
+warwick.ac.uk,137.205.28.41,Warwick University,"Information Technology Services, University of Warwick","Coventry, United Kingdom",52.382,-1.5874,University of Warwick,52.3813073,-1.5639569
+westminster.ac.uk,54.217.246.39,"Amazon.com, Inc.",AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,University of Westminster,51.5209064,-0.140073
+wlv.ac.uk,3.33.145.238,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Wolverhampton,52.5901648,-2.1277808
+worc.ac.uk,185.18.139.18,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,University of Worcester,52.195587,-2.2261464
+york.ac.uk,144.32.128.115,University of York,"IT Services, University of York","York, United Kingdom",53.9573,-1.0837,University of York,53.9453903,-1.0314593
+stmarys.ac.uk,185.18.139.29,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,St Mary's University,51.4370679,-0.3360952
+leedstrinity.ac.uk,166.117.125.152,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Seattle, United States",47.4815,-122.246,Leeds Trinity University,53.8481537,-1.6450165
+eastcoast.ac.uk,151.101.2.159,"Fastly, Inc.","Fastly, Inc.","Montreal, Canada",45.5019,-73.5674,East Coast College,52.5975786,1.7220073
+swansea.ac.uk,137.44.60.150,Swansea University,,"Swansea, United Kingdom",51.6131,-4.0441,Swansea University,51.6080596,-3.9773969
+yorksj.ac.uk,193.61.228.134,Jisc Services Limited,University College of Ripon and York St John,"York, United Kingdom",53.9649,-1.0801,York St. John University,53.982244,-1.0763834
+cavc.ac.uk,52.142.190.205,Microsoft Corporation,Microsoft Azure Cloud (ukwest),"Cardiff, United Kingdom",51.481785,-3.178065,Cardiff and Vale College,51.4713121,-3.1745123
+wakefield.ac.uk,103.77.224.73,Mathew Heard/Trading as X4B,X4B,"Los Angeles, United States",34.0549,-118.243,Wakefield College,53.6855333,-1.5041362
+lis.ac.uk,198.202.211.1,"Cloudflare London, LLC","Webflow, Inc","San Francisco, United States",37.7708,-122.413,London Interdisciplinary School,,
+hult.edu,35.169.147.105,"Amazon.com, Inc.",AWS EC2 (us-east-1),"Ashburn, United States",39.0438,-77.4874,HULT Business School,51.5152724,-0.0676754
+bath.edu,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594,University of Bath,51.3766938,-2.3234206
+bath.edu,138.38.0.49,Bath University,University of Bath,"Bath, United Kingdom",51.3735,-2.3594,University of Bath,51.3766938,-2.3234206
+ulster.ac.uk,2.58.104.10,Squiz Pty Ltd,Squiz Cdn1,"Sydney, Australia",-33.8688,151.209,Ulster University,54.6038201,-5.9288914
+uplearnbusinessschool.com,185.53.179.128,Team Internet AG,TEAM-INTERNET,"Munich, Germany",48.1446,11.5895,Up Learn Business School,,
+ncl-coll.ac.uk,20.49.208.219,Microsoft Corporation,Microsoft Azure Cloud (uksouth),"City of London, United Kingdom",51.5113,-0.079212,Newcastle College,54.9764443,-1.6870947
+btc.ac.uk,34.240.187.24,Amazon Technologies Inc.,AWS EC2 (eu-west-1),"Dublin, Ireland",53.3498,-6.26031,Bridgwater & Taunton College,51.1523792,-3.0663434
+runshaw.ac.uk,141.193.213.10,"Cloudflare London, LLC","WPEngine, Inc.","Austin, United States",30.2681,-97.7462,Runshaw College,53.6810821,-2.6890864
+wsc.ac.uk,103.77.224.16,Mathew Heard/Trading as X4B,X4B,"Los Angeles, United States",34.0549,-118.243,West Suffolk College,52.249226,0.6995268
+college.harlaxton.co.uk,76.76.21.21,"Amazon.com, Inc.","Vercel, Inc","Walnut, United States",34.0233,-117.8512,Harlaxton College,52.8799474,-0.6710455
+newcollege.ac.uk,212.219.8.122,Jisc Services Limited,New College Swindon,"Southampton, United Kingdom",50.9005,-1.3854,New College Swindon,51.568358,-1.7870181
+cumbria.ac.uk,52.223.55.188,"Amazon.com, Inc.",AWS Global Accelerator (GLOBAL),"Montreal, Canada",45.5019,-73.5674,University of Cumbria,54.8908157,-2.9223991
+sruc.ac.uk,162.159.140.127,"Cloudflare, Inc.","Cloudflare, Inc.","Toronto, Canada",43.6532,-79.3832,Scotland's Rural College (SRUC),,
+citystgeorges.ac.uk,43.245.41.211,Squiz Pty Ltd,Squiz hosting,"Sydney, Australia",-33.8718,151.205,"City St George's, University of London",,
+sgul.ac.uk,185.18.139.168,Zengenti Ltd.,,"Ludlow, United Kingdom",52.4177,-2.63996,"City St George's, University of London (School of Health and Medical Sciences)",,
+trinitycollegebristol.ac.uk,35.214.77.148,Google LLC,Google Cloud (europe-west2),"London, United Kingdom",51.5123,-0.0909,Trinity College Bristol,51.4767404,-2.6294812
