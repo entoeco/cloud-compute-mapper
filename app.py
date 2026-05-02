@@ -107,7 +107,7 @@ try:
                 latitude=all_latitudes.mean(),
                 longitude=all_longitudes.mean(),
                 zoom=3,
-                pitch=45, # Angled view
+                pitch=0, # Angled view
             )
 
             # Render the map
