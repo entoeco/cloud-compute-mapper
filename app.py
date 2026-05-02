@@ -33,7 +33,7 @@ try:
             data=map_data_dc,
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
-            get_radius=500,  # Base radius in meters
+            get_radius=400,  # Base radius in meters
             radius_scale=10,  # Scale radius with zoom level
             radius_min_pixels=2, # Minimum radius in pixels
             pickable=True,
@@ -55,7 +55,7 @@ try:
             data=map_data_campus,
             get_position="[campus_lon, campus_lat]",
             get_color="[0, 150, 255, 200]", # Blue
-            get_radius=2500, # Slightly larger radius for campuses to distinguish
+            get_radius=400, # Slightly larger radius for campuses to distinguish
             radius_scale=10,
             radius_min_pixels=2,
             pickable=True,
