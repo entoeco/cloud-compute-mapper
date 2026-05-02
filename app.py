@@ -42,7 +42,7 @@ try:
             latitude=map_data['lat'].mean(), # Center camera on the data
             longitude=map_data['lon'].mean(),
             zoom=3,
-            pitch=0, # Try changing this to 45 later for a cool 3D angled view!
+            pitch=45, # Try changing this to 45 later for a cool 3D angled view!
         )
 
         # 3. Render the map with a custom HTML tooltip
