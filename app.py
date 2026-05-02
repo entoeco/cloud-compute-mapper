@@ -40,7 +40,7 @@ try:
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
             radius_scale=10,
-            radius_min_pixels=5,
+            radius_min_pixels=2,
             pickable=True,
             tooltip={
                 "html": "<b>Domain:</b> {target_domain} <br/>"
@@ -61,7 +61,7 @@ try:
             get_position="[campus_lon, campus_lat]",
             get_color="[0, 150, 255, 200]", # Blue
             radius_scale=10,
-            radius_min_pixels=5,
+            radius_min_pixels=2,
             pickable=True,
             tooltip={
                 "html": "<b>University:</b> {university_name} <br/>"
@@ -81,7 +81,7 @@ try:
             get_source_position="[campus_lon, campus_lat]",
             get_target_position="[lon, lat]",
             get_color="[255, 0, 0, 160]", # Red lines
-            get_width=1,
+            get_width=3,
             pickable=True,
             tooltip={
                 "html": "<b>University:</b> {university_name} <br/>"
@@ -107,14 +107,14 @@ try:
                 latitude=all_latitudes.mean(),
                 longitude=all_longitudes.mean(),
                 zoom=3,
-                pitch=0, # Angled view
+                pitch=45, # Angled view
             )
 
             # Render the map
             st.pydeck_chart(pdk.Deck(
                 layers=layers,
                 initial_view_state=view_state,
-                tooltip=True # Enable default tooltip behavior for both layers
+                # tooltip=True # Removed this to ensure layer-specific tooltips work
             ))
         else:
             st.warning("⚠️ No valid coordinates found to display map.")
@@ -128,7 +128,8 @@ try:
     st.bar_chart(provider_counts)
 
     with st.expander("🔍 View Raw Intelligence Data"):
-        st.dataframe(df, use_container_width=True)
+        # Changed use_container_width=True to width='stretch'
+        st.dataframe(df, width='stretch')
 
 except FileNotFoundError:
     st.error("⚠️ Dataset not found.")
