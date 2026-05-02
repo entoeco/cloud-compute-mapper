@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import pydeck as pdk  # Streamlit's advanced 3D mapping library
