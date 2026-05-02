@@ -114,7 +114,7 @@ try:
             st.pydeck_chart(pdk.Deck(
                 layers=layers,
                 initial_view_state=view_state,
-                # tooltip=True # Removed this to ensure layer-specific tooltips work
+                tooltip=True
             ))
         else:
             st.warning("⚠️ No valid coordinates found to display map.")
