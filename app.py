@@ -1,3 +1,4 @@
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import pydeck as pdk  # Streamlit's advanced 3D mapping library
@@ -19,13 +20,19 @@ try:
     st.divider()
 
     st.write("### Data Center & University Campus Locations")
-    st.markdown("Hover over a point to see details. Green points are data centers, blue points are university campuses.")
+    st.markdown("Hover over a point to see details. Green points are data centers, blue points are university campuses, and red lines connect campuses to their data centers.")
+    st.markdown("**Legend:** 🟢 Data Centers | 🔵 University Campuses | 🔴 Campus to Data Center Connection")
 
     # Filter out rows with missing lat/lon for both data centers and campuses
     map_data_dc = df[(df['lat'].notna()) & (df['lon'].notna()) & (df['lat'] != 0.0) & (df['lon'] != 0.0)]
     map_data_campus = df[(df['campus_lat'].notna()) & (df['campus_lon'].notna())]
+    # Filter data for lines: ensure both campus and data center coordinates are available
+    map_data_lines = df[
+        (df['lat'].notna()) & (df['lon'].notna()) & (df['lat'] != 0.0) & (df['lon'] != 0.0) &
+        (df['campus_lat'].notna()) & (df['campus_lon'].notna())
+    ]
 
-    if not map_data_dc.empty or not map_data_campus.empty:
+    if not map_data_dc.empty or not map_data_campus.empty or not map_data_lines.empty:
 
         # Data Center Layer (Green)
         data_center_layer = pdk.Layer(
@@ -33,9 +40,8 @@ try:
             data=map_data_dc,
             get_position="[lon, lat]",
             get_color="[0, 255, 0, 200]", # Cyber Green
-            get_radius=400,  # Base radius in meters
-            radius_scale=10,  # Scale radius with zoom level
-            radius_min_pixels=2, # Minimum radius in pixels
+            radius_scale=10,
+            radius_min_pixels=2,
             pickable=True,
             tooltip={
                 "html": "<b>Domain:</b> {target_domain} <br/>"
@@ -55,7 +61,6 @@ try:
             data=map_data_campus,
             get_position="[campus_lon, campus_lat]",
             get_color="[0, 150, 255, 200]", # Blue
-            get_radius=400, # Slightly larger radius for campuses to distinguish
             radius_scale=10,
             radius_min_pixels=2,
             pickable=True,
@@ -70,8 +75,28 @@ try:
             }
         )
 
+        # Line Layer (Red) connecting campus to data center
+        line_layer = pdk.Layer(
+            "LineLayer",
+            data=map_data_lines,
+            get_source_position="[campus_lon, campus_lat]",
+            get_target_position="[lon, lat]",
+            get_color="[255, 0, 0, 160]", # Red lines
+            get_width=3,
+            pickable=True,
+            tooltip={
+                "html": "<b>University:</b> {university_name} <br/>"
+                        "<b>Data Center Provider:</b> {provider}",
+                "style": {
+                    "backgroundColor": "#222222",
+                    "color": "white",
+                    "font-family": "sans-serif"
+                }
+            }
+        )
+
         # Combine layers
-        layers = [data_center_layer, campus_layer]
+        layers = [data_center_layer, campus_layer, line_layer]
 
         # Define where the camera starts (The View)
         # Use mean of all relevant coordinates for initial view
